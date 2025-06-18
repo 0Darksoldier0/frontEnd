@@ -205,8 +205,8 @@
         width: 18px;
     }
     .navbar button {
-        font-size: 10px;
-        width: 60px;
+        font-size: 9px;
+        width: 50px;
         padding: 6px 0px;
     }
 }
@@ -220,7 +220,7 @@
     }
     .navbar-menu {
         width: 450px;
-        gap: 6px;
+        gap: 4px;
         font-size: 12px;
     }
     .navbar-right {

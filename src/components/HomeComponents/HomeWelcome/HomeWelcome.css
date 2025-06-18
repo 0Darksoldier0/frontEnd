@@ -1,11 +1,13 @@
 .home-welcome {
     position: relative;
-    padding-top: 9%;
+    padding-top: 7%;
     animation: fadeIn 1s;
 }
 
 .home-welcome img {
     width: 100%;
+    /* height: 700px; */
+    object-fit: cover;
 }
 
 .home-welcome h1 {
