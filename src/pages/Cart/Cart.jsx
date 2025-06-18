@@ -5,8 +5,6 @@ import { assets } from '../../assets/assets';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-// import { BACKEND_URL } from '../../../config/constants'; // This import is no longer needed for image URLs
-
 const Cart = () => {
 
     const token = localStorage.getItem('token');
