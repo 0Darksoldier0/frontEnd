@@ -143,8 +143,9 @@
         width: 40px;
     }
     .navbar-menu {
+        width: 450px;
         gap: 15px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .navbar-right {
         gap: 40px;
@@ -166,8 +167,9 @@
         width: 35px;
     }
     .navbar-menu {
+        width: 450px;
         gap: 12px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .navbar-right {
         gap: 30px;
@@ -192,8 +194,9 @@
         width: 30px;
     }
     .navbar-menu {
+        width: 450px;
         gap: 9px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .navbar-right {
         gap: 20px;
@@ -216,6 +219,7 @@
         width: 25px;
     }
     .navbar-menu {
+        width: 450px;
         gap: 6px;
         font-size: 12px;
     }

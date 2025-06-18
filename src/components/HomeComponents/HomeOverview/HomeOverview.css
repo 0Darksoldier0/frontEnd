@@ -9,14 +9,13 @@
 }
 
 .overview-sections {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
     justify-content: center;
     gap: 40px;
 }
 
 .overview-sections .sub-section {
-    width: 300px;
     height: 400px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgb(210, 210, 210);
@@ -45,9 +44,11 @@
     margin-top: 50px;
     transition: opacity 0.15s;
 }
+
 .sub-section h3:hover {
     opacity: 0.8;
 }
+
 .sub-section h3:active {
     opacity: 0.6;
 }
