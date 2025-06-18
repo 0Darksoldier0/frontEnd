@@ -24,6 +24,8 @@
     flex-direction: column;
     gap: 25px; /* Spacing between main elements */
     color: #333; /* Default text color */
+    max-height: 90vh; /* Limit height to 90% of viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 /* Main title of the popup */
@@ -48,6 +50,23 @@
 @media (max-width: 767px) { /* When screen width is less than 768px */
     .order-details-sections {
         flex-direction: column; /* Stacks sections vertically on small screens */
+    }
+    .order-details-content {
+        padding: 20px; /* Adjust padding for smaller screens */
+        gap: 15px; /* Reduce gap on smaller screens */
+    }
+    .order-details-content h1 {
+        font-size: 1.8em; /* Adjust title size for smaller screens */
+        margin-bottom: 15px;
+    }
+    .customer-details-section,
+    .order-summary-section {
+        padding: 15px; /* Adjust section padding */
+    }
+    .customer-details-section h2,
+    .order-summary-section h2 {
+        font-size: 1.3em; /* Adjust section title size */
+        margin-bottom: 15px;
     }
 }
 
