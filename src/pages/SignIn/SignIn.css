@@ -19,6 +19,7 @@
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgb(200, 200, 200);
 }
+
 .signin h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -34,9 +35,11 @@
     border-radius: 23px;
     outline: none;
 }
+
 .signin input:focus {
     border: 2px solid brown;
 }
+
 .signin .buttons {
     display: flex;
     flex-direction: row;
@@ -44,6 +47,7 @@
     gap: 40px;
     margin-top: 50px;
 }
+
 .buttons button {
     height: 50px;
     width: 130px;
@@ -58,17 +62,21 @@
     color: white;
     transition: all 0.2s;
 }
+
 .buttons .signin-btn:hover {
     opacity: 0.9;
 }
+
 .buttons .cancel-btn {
     border: 1px solid rgb(219, 219, 219);
     background-color: rgb(239, 239, 239);
     transition: all 0.2s;
 }
+
 .buttons .cancel-btn:hover {
     background-color: rgb(221, 221, 221);
 }
+
 .signin p {
     text-align: center;
     color: brown;
@@ -76,6 +84,35 @@
     cursor: pointer;
     transition: all 0.2s;
 }
+
 .sign-in p:hover {
     font-weight: 600;
+}
+
+@media screen and (max-width: 750px) {
+    .signin {
+        gap: 20px;
+        width: 350px;
+        height: 350px;
+    }
+
+    .signin h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .signin input {
+        padding: 12px 18px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .buttons button {
+        height: 30px;
+        width: 130px;
+        font-size: 15px;
+    }
+    .signin .buttons {
+        margin-top: 10px;
+    }
 }

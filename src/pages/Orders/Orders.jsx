@@ -27,7 +27,7 @@ const Orders = () => {
             <h1>My Orders</h1>
             <h2>Waiting to be delivered</h2>
             <div className='titles'>
-                <p></p>
+                <p className='empty1'></p>
                 <p>OrderID</p>
                 <p>Order Date</p>
                 <p>Order Status</p>

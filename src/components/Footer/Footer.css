@@ -13,10 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding: 5%;
     color: white;
     gap: 150px;
 }
@@ -52,11 +49,13 @@
     width: 30px;
     margin-right: 12px;
 }
+
 .footer-middle {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 .footer-middle h2 {
     font-weight: 500;
     font-size: 30px;
@@ -66,13 +65,16 @@
 .footer-middle img {
     margin-right: 10px;
 }
+
 .footer-middle .phone-logo {
     width: 15px;
 }
+
 .footer-middle .mail-logo {
     width: 18px;
     margin-left: -2px;
 }
+
 .footer-middle .location-logo {
     width: 15px;
 }
@@ -96,4 +98,36 @@
     border-radius: 12px;
     margin-right: 10px;
     margin-bottom: 6px;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .footer-main {
+        gap: 100px;
+    }
+
+    .footer-left .logo h2 {
+        font-size: 20px;
+    }
+
+    .footer-left p {
+        display: none;
+    }
+
+    .footer-middle h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-middle {
+        gap: 0px;
+    }
+    .footer-middle img {
+        display: none;
+    }
 }

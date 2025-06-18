@@ -59,6 +59,7 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import hamburger_icon from './hamburger_icon.png'
 
 import restaurant_logo from './japanese-food-logo.png'
 import breakfast_icon from './breakfast_icon.png'
@@ -84,6 +85,7 @@ export const assets = {
     add_icon_green,
     add_icon_white,
     remove_icon_red,
+    hamburger_icon,
     app_store,
     play_store,
     linkedin_icon,

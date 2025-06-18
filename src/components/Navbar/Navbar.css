@@ -1,5 +1,5 @@
 .navbar {
-    padding: 20px 0px;
+    padding: 1% 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +39,7 @@
     color: rgb(90, 90, 90); 
     font-size: 22px;  
     width: 500px;
+    justify-content: center;
 }
 
 .navbar-menu .inactive {
@@ -132,4 +133,96 @@
 
 .navbar-profile-dropdown .signout{
     font-weight: 600;
+}
+
+@media screen and (max-width: 1170px) {
+    .navbar .logo p {
+        font-size: 25px;
+    }
+    .navbar .logo img {
+        width: 40px;
+    }
+    .navbar-menu {
+        gap: 15px;
+        font-size: 20px;
+    }
+    .navbar-right {
+        gap: 40px;
+    }
+    .navbar-right img {
+        width: 25px;
+    }
+    .navbar button {
+        font-size: 10px;
+        width: 80px;
+        padding: 8px 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .navbar .logo p {
+        display: none;
+    }
+    .navbar .logo img {
+        width: 35px;
+    }
+    .navbar-menu {
+        gap: 12px;
+        font-size: 18px;
+    }
+    .navbar-right {
+        gap: 30px;
+    }
+    .navbar-right img {
+        width: 22px;
+    }
+    .navbar button {
+        font-size: 10px;
+    }
+    .navbar button {
+        font-size: 10px;
+        width: 70px;
+        padding: 8px 18px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .navbar .logo p {
+        display: none;
+    }
+    .navbar .logo img {
+        width: 30px;
+    }
+    .navbar-menu {
+        gap: 9px;
+        font-size: 15px;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    .navbar-right img {
+        width: 18px;
+    }
+    .navbar button {
+        font-size: 10px;
+        width: 60px;
+        padding: 6px 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbar .logo p {
+        display: none;
+    }
+    .navbar .logo img {
+        width: 25px;
+    }
+    .navbar-menu {
+        gap: 6px;
+        font-size: 12px;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    .navbar-right img {
+        width: 14px;
+    }
 }

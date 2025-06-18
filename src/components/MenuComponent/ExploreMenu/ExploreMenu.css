@@ -1,5 +1,5 @@
 .explore-menu {
-    padding-top: 130px;
+    padding-top: 8%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -41,6 +41,7 @@
     cursor: pointer;
     transition: background-color 0.2s;
 }
+
 .explore-menu-list .inactive:hover {
     background-color: rgb(240, 240, 240);
 }
@@ -58,3 +59,49 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 950px) {
+    .explore-menu h1 {
+        font-size: 70px;
+    }
+    .explore-menu .text {
+        font-size: 16px;
+    }
+    .explore-menu-list .active {
+        font-size: 13px;
+    }
+    .explore-menu-list .inactive {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .explore-menu h1 {
+        font-size: 60px;
+    }
+    .explore-menu .text {
+        font-size: 14px; 
+    }
+    .explore-menu-list .active {
+        font-size: 11px;
+        height: 35px;
+    }
+    .explore-menu-list .inactive {
+        font-size: 11px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .explore-menu h1 {
+        font-size: 50px;
+    }
+    .explore-menu .text {
+        font-size: 12px; 
+    }
+    .explore-menu-list .active {
+        font-size: 9px;
+        height: 30px;
+    }
+    .explore-menu-list .inactive {
+        font-size: 9px;
+        height: 30px;
+    }
+}

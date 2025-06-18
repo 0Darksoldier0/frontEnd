@@ -1,17 +1,18 @@
 .account-container {
-    padding-top: 120px;
+    padding-top: 8%;
     display: flex;
     justify-content: center;
     animation: fadeIn 0.5s;
     color: rgb(60, 60, 60);
 }
+
 .p {
     margin-top: 5px;
 }
+
 .account {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     padding: 25px 80px;
     width: 600px;
     gap: 20px;
@@ -20,11 +21,17 @@
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgb(220, 220, 220);
 }
+
 .account h1 {
     text-align: center;
     color: brown;
     font-size: 50px;
 }
+
+.groups h3 {
+    color: rgb(71, 71, 71);
+}
+
 .account .save-btn {
     height: 30px;
     width: 100px;
@@ -35,9 +42,11 @@
     cursor: pointer;
     transition: all 0.15s;
 }
+
 .account .save-btn:hover {
     opacity: 0.85;
 }
+
 .account input {
     width: 200px;
     height: 30px;
@@ -46,6 +55,7 @@
     outline: none;
     padding: 0px 10px;
 }
+
 .account input:focus {
     border: 2px solid brown;
 }
@@ -68,6 +78,7 @@
     flex-direction: column;
     gap: 5px;
 }
+
 .password-sub-group p {
     margin-bottom: 3px;
 }
@@ -82,6 +93,42 @@
     cursor: pointer;
     transition: all 0.15s;
 }
+
 .return-btn:hover {
     background-color: rgb(222, 221, 221);
+}
+
+@media screen and (max-width: 750px) {
+    .account {
+        width: 500px;
+        gap: 20px;
+        height: 530px;
+        padding: 25px 20px;
+    }
+
+    .account h1 {
+        font-size: 40px;
+    }
+
+    .account .save-btn {
+        height: 25px;
+        width: 80px;
+    }
+
+    .groups h3 {
+        font-size: medium;
+    }
+
+    .groups p {
+        font-size: small;
+    }
+
+    .account input {
+        width: 150px;
+        height: 25px;
+    }
+
+    .sub-group {
+        gap: 10px;
+    }
 }
