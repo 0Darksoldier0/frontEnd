@@ -1,0 +1,19 @@
+.home-welcome {
+    position: relative;
+    padding-top: 110px;
+    animation: fadeIn 1s;
+}
+
+.home-welcome img {
+    width: 100%;
+
+}
+
+.home-welcome h1 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    color: white;
+    font-size: 70px;
+    width: 60%;
+}

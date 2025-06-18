@@ -1,0 +1,53 @@
+.overview {
+    text-align: center;
+}
+
+.overview h1 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+.overview-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.overview-sections .sub-section {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(210, 210, 210);
+}
+
+.sub-section img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 80px;
+}
+
+.sub-section h2 {
+    margin-bottom: 20px;
+}
+
+.sub-section p {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 80px;
+    color: grey;
+}
+
+.sub-section h3 {
+    color: brown;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: opacity 0.15s;
+}
+.sub-section h3:hover {
+    opacity: 0.8;
+}
+.sub-section h3:active {
+    opacity: 0.6;
+}

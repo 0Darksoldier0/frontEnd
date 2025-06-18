@@ -1,0 +1,81 @@
+.sign-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation: fadeIn 0.5s;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    margin-top: 180px;
+    padding: 60px 80px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(200, 200, 200);
+}
+.signin h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: brown;
+}
+
+.signin input {
+    padding: 12px 18px;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 23px;
+    outline: none;
+}
+.signin input:focus {
+    border: 2px solid brown;
+}
+.signin .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.buttons button {
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons .signin-btn {
+    background-color: brown;
+    color: white;
+    transition: all 0.2s;
+}
+.buttons .signin-btn:hover {
+    opacity: 0.9;
+}
+.buttons .cancel-btn {
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(239, 239, 239);
+    transition: all 0.2s;
+}
+.buttons .cancel-btn:hover {
+    background-color: rgb(221, 221, 221);
+}
+.signin p {
+    text-align: center;
+    color: brown;
+    cursor: pointer;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.sign-in p:hover {
+    font-weight: 600;
+}
