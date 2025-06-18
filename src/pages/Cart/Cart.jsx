@@ -5,7 +5,7 @@ import { assets } from '../../assets/assets';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-import { BACKEND_URL } from '../../../config/constants';
+// import { BACKEND_URL } from '../../../config/constants'; // This import is no longer needed for image URLs
 
 const Cart = () => {
 
@@ -49,7 +49,8 @@ const Cart = () => {
                         return (
                             <div key={index}>
                                 <div className='cart-items-title cart-items-item'>
-                                    <img className='food' src={`${BACKEND_URL}` + "/images/" + item.image} alt="" />
+                                    {/* Directly use the 'image' prop as it's now the full GCS URL */}
+                                    <img className='food' src={item.image} alt="" />
                                     <p>{item.product_name}</p>
                                     <p>{item.price}</p>
                                     <div id='food-item-counter' >
