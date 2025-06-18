@@ -78,7 +78,7 @@
 }
 
 .aboutus-bottom .left-section {
-    width: 600px;
+    /* width: 600px; */
 }
 
 .aboutus-bottom h1 {
@@ -86,10 +86,12 @@
     font-weight: 500;
     margin-bottom: 35px;
 }
+
 .aboutus-bottom .text {
     font-size: 20px;
     margin-bottom: 80px;
 }
+
 .aboutus-bottom .stats {
     display: grid;
     grid-template-columns: 250px 250px;
@@ -97,6 +99,7 @@
     column-gap: 50px;
     justify-content: center;
 }
+
 .stats .stats-cell {
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(200, 200, 200);
@@ -104,16 +107,276 @@
     background-color: white;
     padding: 35px;
 }
+
 .stats-cell h2 {
     color: brown;
     font-size: 40px;
     margin-bottom: 10px;
 }
+
 .stats-cell p {
     font-size: 18px;
 }
+
 .aboutus-bottom img {
     width: 600px;
     height: 650px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 1150px) {
+    .aboutus-top {
+        gap: 80px;
+        margin-bottom: 100px;
+    }
+
+    .aboutus-top img {
+        width: 500px;
+    }
+
+    .aboutus-top h1 {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+
+    .aboutus-top .p1 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .aboutus-top .p2 {
+        font-size: 16px;
+    }
+
+    .aboutus-middle {
+        gap: 80px;
+        margin-bottom: 100px;
+    }
+
+    .aboutus-middle img {
+        width: 30px;
+        margin-right: 20px;
+    }
+
+    .middle-subsection .right-section h3 {
+        margin-bottom: 13px;
+        font-size: 20px;
+    }
+
+    .middle-subsection .right-section p {
+        font-size: 15px;
+    }
+
+    .aboutus-bottom {
+        gap: 80px;
+    }
+
+    .aboutus-bottom .left-section {
+        width: 450px;
+    }
+
+    .aboutus-bottom h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .aboutus-bottom .text {
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+    .aboutus-bottom .stats {
+        grid-template-columns: 190px 190px;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .stats .stats-cell {
+        padding: 20px;
+    }
+
+    .stats-cell h2 {
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+
+    .stats-cell p {
+        font-size: 16px;
+    }
+
+    .aboutus-bottom img {
+        width: 450px;
+        height: 530px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .aboutus-top {
+        gap: 60px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-top img {
+        width: 400px;
+    }
+
+    .aboutus-top h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .aboutus-top .p1 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .aboutus-top .p2 {
+        font-size: 14px;
+    }
+
+    .aboutus-middle {
+        gap: 60px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-middle img {
+        width: 26px;
+        margin-right: 16px;
+    }
+
+    .middle-subsection .right-section h3 {
+        margin-bottom: 13px;
+        font-size: 18px;
+    }
+
+    .middle-subsection .right-section p {
+        font-size: 13px;
+    }
+
+    .aboutus-bottom {
+        gap: 60px;
+    }
+
+    .aboutus-bottom .left-section {
+        width: 350px;
+    }
+
+    .aboutus-bottom h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .aboutus-bottom .text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .aboutus-bottom .stats {
+        grid-template-columns: 130px 130px;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .stats .stats-cell {
+        padding: 12px;
+    }
+
+    .stats-cell h2 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .stats-cell p {
+        font-size: 14px;
+    }
+
+    .aboutus-bottom img {
+        width: 350px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .aboutus-top {
+        gap: 60px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-top img {
+        display: none;
+    }
+
+    .aboutus-top h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .aboutus-top .p1 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .aboutus-top .p2 {
+        font-size: 14px;
+    }
+
+    .aboutus-middle {
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .aboutus-middle img {
+        width: 26px;
+        margin-right: 16px;
+    }
+
+    .middle-subsection .right-section h3 {
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+
+    .middle-subsection .right-section p {
+        font-size: 11px;
+    }
+
+    .aboutus-bottom {
+        gap: 60px;
+    }
+
+    .aboutus-bottom .left-section {
+        width: 350px;
+    }
+
+    .aboutus-bottom h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .aboutus-bottom .text {
+        font-size: 16px;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .aboutus-bottom .stats {
+        grid-template-columns: 150px 150px;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .stats .stats-cell {
+        padding: 12px;
+    }
+
+    .stats-cell h2 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .stats-cell p {
+        font-size: 14px;
+    }
+
+    .aboutus-bottom img {
+        display: none;
+    }
 }
