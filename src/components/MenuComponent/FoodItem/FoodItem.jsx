@@ -28,7 +28,12 @@ const FoodItem = ({ id, name, price, description, image }) => {
 
             <div className='food-item-info'>
                 <p className='food-item-name'>{name}</p>
-                <p className="food-item-description">{description}</p>
+                <p
+                    className="food-item-description"
+                    dangerouslySetInnerHTML={{
+                        __html: description.replace(/\n/g, '<br />'),
+                    }}
+                ></p>
                 <p className='food-item-price'>{price} vnd</p>
             </div>
 

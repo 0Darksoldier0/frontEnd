@@ -18,6 +18,12 @@ const ExploreMenu = ({category, setCategory}) => {
                 <button onClick={() => setCategory("Snack")} className={category==="Snack" ? "active" : "inactive"}>Snack</button>
                 <button onClick={() => setCategory("The Usual")} className={category==="The Usual" ? "active" : "inactive"}>The Usual</button>
             </div>
+            <div className="explore-menu-list">
+
+            </div>
+            <div className="explore-menu-list">
+
+            </div>
         </div>
     )
 }
