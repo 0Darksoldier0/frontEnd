@@ -192,14 +192,15 @@
     }
     .navbar .logo img {
         width: 30px;
+        margin-right: 0px;
     }
     .navbar-menu {
-        width: 450px;
-        gap: 9px;
-        font-size: 14px;
+        width: 400px;
+        gap: 0px;
+        font-size: 16px;
     }
     .navbar-right {
-        gap: 20px;
+        gap: 10px;
     }
     .navbar-right img {
         width: 18px;
@@ -208,25 +209,5 @@
         font-size: 9px;
         width: 50px;
         padding: 6px 0px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .navbar .logo p {
-        display: none;
-    }
-    .navbar .logo img {
-        width: 25px;
-    }
-    .navbar-menu {
-        width: 450px;
-        gap: 4px;
-        font-size: 12px;
-    }
-    .navbar-right {
-        gap: 20px;
-    }
-    .navbar-right img {
-        width: 14px;
     }
 }
